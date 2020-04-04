@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+.container {
+    padding-top: 3rem;
+}
+
+.card-columns .card {
+    margin-bottom: 1.25rem;
+}
+
+.category {
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width: 576px) {
+    .card-columns {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card-columns {
+        column-count: 3;
+    }
+}
