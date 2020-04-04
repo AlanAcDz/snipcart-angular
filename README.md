@@ -1,27 +1,6 @@
-# SnipcartAngular
+# Snipcart with Angular & Firebase integration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+This is the example Angular project of these blog posts:
+- [DevAces post original en español](https://devaces.com.mx/blog/post/tgg7TnbIHW8GEUl4ofa5)
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To test just run `npm install`. The example includes a `products.json` file in the assets folder that you can use as a template for your own products and import it to Firebase Realtime Database.
